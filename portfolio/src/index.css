@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -21,7 +30,7 @@ body {
 }
 
 .typeOne::-webkit-scrollbar-thumb {
-  background: #0086ff;
+  background: #3970aa;
   padding: 3px;
 }
 

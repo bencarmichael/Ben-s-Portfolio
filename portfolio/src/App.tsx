@@ -1,58 +1,51 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
+import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import Ben from "./components/Ben";
 import Profile from "./pages/Profile";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Ready from "./components/Ready";
+import Mail from "./components/Mail";
+import Phone from "./components/Phone";
 
 function App() {
-  const [open, setOpen] = useState("home");
+  const [open, setOpen] = useState("projects");
+  const transitPage = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    document.title = "Ben Carmichael";
+  }, []);
+  useEffect(() => {
+    if (transitPage.current) {
+      transitPage.current.style.opacity = "1";
+    }
+  }, [open]);
 
   return (
     <div className="App">
       <div className="lg:hidden flex fixed z-50 w-screen h-screen inset-0 bg-black flex-col justify-center items-center gap-5 text-white">
         <Ready color="white" width="300px" />
-        Sorry, Mobile environment are not supported.
       </div>
-      <div className="w-full h-[100vh] bg-[#0086FF] flex flex-col justify-start items-center text-white">
-        <div className="w-[80%] h-[120px]  flex flex-row justify-center pb-6 pt-10">
+      <div className="w-full h-[100vh] bg-[#3970AA] flex flex-col justify-start items-center text-white">
+        <div className="w-[80%] h-[100px]  flex flex-row justify-center">
           <div className="flex flex-col justify-center text-2xl items-end">
-            <Ben color="white" width="350px" />
+            <Ben color="white" width="300px" />
             {/* <div className="text-sm absolute font-bold top-[10%]">
               Graphic Designer
             </div> */}
           </div>
         </div>
 
-        <div className="w-[80%] h-[78vh] flex flex-col justify-start items-center bg-white text-black rounded-2xl shadow-sm">
-          <div className=" my-2 px-10 py-2 w-[95%] h-[70px] flex flex-row gap-3 justify-between items-center text-lg font-bold solid ">
+        <div className="w-full h-[78vh] flex flex-col justify-start items-center bg-white text-black shadow-sm">
+          <div className=" my-2 px-10 py-2 w-[95%] h-[90px] flex flex-row gap-3 justify-around items-center text-xl font-bold solid ">
             <div
-              className=" w-[100px] cursor-pointer font-black hover:text-[#0086FF]"
-              style={
-                open === "home" ? { color: "#0086FF", fontWeight: "800" } : {}
-              }
-              onClick={() => setOpen("home")}
-            >
-              Home
-            </div>
-            <div
-              className=" w-[100px] cursor-pointer font-black  transition-all hover:text-[#0086FF] "
-              style={
-                open === "profile"
-                  ? { color: "#0086FF", fontWeight: "800" }
-                  : {}
-              }
-              onClick={() => setOpen("profile")}
-            >
-              Profile
-            </div>
-            <div
-              className=" w-[100px] cursor-pointer font-black  transition-all hover:text-[#0086FF]"
+              className=" w-[100px] cursor-pointer font-black  transition-all duration-100 hover:text-[#3970AA]"
               style={
                 open === "projects"
-                  ? { color: "#0086FF", fontWeight: "800" }
+                  ? {
+                      color: "#3970AA",
+                      fontWeight: "800",
+                      textDecoration: "underline",
+                    }
                   : {}
               }
               onClick={() => setOpen("projects")}
@@ -60,18 +53,37 @@ function App() {
               Projects
             </div>
             <div
-              className="  w-[100px] cursor-pointer font-black transition-all hover:text-[#0086FF]"
+              className=" w-[100px] cursor-pointer font-black  transition-all hover:text-[#3970AA] "
               style={
-                open === "contact"
-                  ? { color: "#0086FF", fontWeight: "800" }
+                open === "profile"
+                  ? {
+                      color: "#3970AA",
+                      fontWeight: "800",
+                      textDecoration: "underline",
+                    }
                   : {}
               }
-              onClick={() => setOpen("contact")}
+              onClick={() => setOpen("profile")}
             >
-              Contact
+              Profile
+            </div>
+            <div
+              className=" w-[100px] cursor-pointer font-black  transition-all hover:text-[#3970AA] "
+              style={
+                open === "career"
+                  ? {
+                      color: "#3970AA",
+                      fontWeight: "800",
+                      textDecoration: "underline",
+                    }
+                  : {}
+              }
+              onClick={() => setOpen("career")}
+            >
+              Career
             </div>
           </div>
-          <div className="w-full h-full overflow-hidden pr-1 typeOne">
+          <div className="w-[90%] h-full overflow-hidden pr-1 typeOne transition-all duration-100 ">
             {" "}
             {open === "home" ? (
               <div className=" w-full transition-all"> Home </div>
@@ -85,7 +97,7 @@ function App() {
                 <Projects />{" "}
               </div>
             ) : (
-              <Contact />
+              <></>
             )}
           </div>
         </div>
