@@ -46,7 +46,7 @@ const IMA = () => {
             <div className=" w-full flex flex-row justify-center items-center mb-10 gap-2">
               <img
                 className=" w-[30%] h-full object-cover"
-                src="/Ben-s-Portfolio/ima_03.jpg"
+                src="/portfolio/ima_03.jpg"
               />
             </div>
 
@@ -66,21 +66,21 @@ const IMA = () => {
             <div className=" w-full flex flex-row justify-center items-center mb-2 gap-2">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/ima_00.jpg"
+                src="/portfolio/ima_00.jpg"
               />
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/ima_01.jpg"
+                src="/portfolio/ima_01.jpg"
               />
             </div>
             <div className=" w-full flex flex-row justify-center items-center gap-2">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/ima_02.jpg"
+                src="/portfolio/ima_02.jpg"
               />
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/ima_04.jpg"
+                src="/portfolio/ima_04.jpg"
               />
             </div>
           </div>

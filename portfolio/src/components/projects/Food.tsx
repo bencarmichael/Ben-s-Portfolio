@@ -48,11 +48,11 @@ const Food = () => {
             <div className=" w-full flex flex-row justify-center items-center mb-10 gap-2">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/food_01.jpg"
+                src="/portfolio/food_01.jpg"
               />
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/food_02.jpg"
+                src="/portfolio/food_02.jpg"
               />
             </div>
 

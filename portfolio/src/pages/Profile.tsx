@@ -8,7 +8,7 @@ const Profile = () => {
         <div className="w-[45%] h-full flex flex-col justify-end items-center">
           <img
             className="w-[80%] opacity-90 "
-            src="/Ben-s-Portfolio/profile_picture.png"
+            src="/portfolio/profile_picture.png"
           />
         </div>
         <div className="w-[55%] h-full flex flex-col justify-start items-start py-[40px] px-[40px] overflow-auto typeOne">

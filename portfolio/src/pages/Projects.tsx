@@ -23,7 +23,7 @@ const Projects = () => {
             >
               <img
                 className="h-full w-full object-cover"
-                src={`/Ben-s-Portfolio/${project.id}_00.jpg`}
+                src={`/portfolio/${project.id}_00.jpg`}
               />
               {name === project.id && (
                 <div>

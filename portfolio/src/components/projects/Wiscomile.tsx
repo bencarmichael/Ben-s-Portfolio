@@ -48,7 +48,7 @@ const Wiscomile = () => {
             <div className=" w-full flex flex-row justify-center items-center mb-10 gap-2">
               <img
                 className=" w-[30%] h-full object-cover"
-                src="/Ben-s-Portfolio/wiscomile_05.jpg"
+                src="/portfolio/wiscomile_05.jpg"
               />
             </div>
 
@@ -69,21 +69,21 @@ const Wiscomile = () => {
             <div className=" w-full flex flex-row justify-center items-center mb-2 gap-2">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/wiscomile_01.jpg"
+                src="/portfolio/wiscomile_01.jpg"
               />
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/wiscomile_02.jpg"
+                src="/portfolio/wiscomile_02.jpg"
               />
             </div>
             <div className=" w-full flex flex-row justify-center items-center gap-2">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/wiscomile_03.jpg"
+                src="/portfolio/wiscomile_03.jpg"
               />
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/wiscomile_04.jpg"
+                src="/portfolio/wiscomile_04.jpg"
               />
             </div>
           </div>

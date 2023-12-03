@@ -46,11 +46,11 @@ const Blugold = () => {
             <div className=" w-full flex flex-row justify-center items-center m-10 my-20 mt-40 gap-10">
               <img
                 className=" w-[20%] object-cover"
-                src="/Ben-s-Portfolio/blugold_04.png"
+                src="/portfolio/blugold_04.png"
               />
               <img
                 className="w-[20%]  object-cover"
-                src="/Ben-s-Portfolio/blugold_03.jpg"
+                src="/portfolio/blugold_03."
               />
             </div>
 
@@ -71,11 +71,11 @@ const Blugold = () => {
             <div className=" w-full flex flex-row justify-between items-start my-10 gap-1">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/blugold_01.jpg"
+                src="/portfolio/blugold_01.jpg"
               />
               <img
                 className="w-[50%] h-full object-cover"
-                src="/Ben-s-Portfolio/blugold_02.jpg"
+                src="/portfolio/blugold_02.jpg"
               />
             </div>
           </div>
