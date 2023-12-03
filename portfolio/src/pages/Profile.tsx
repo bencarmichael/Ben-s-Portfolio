@@ -15,7 +15,7 @@ const Profile = () => {
           <div className="w-full flex flex-row justify-center items-center">
             <Ready color="#3970AA" width="250px" />
           </div>
-          <div className="w-full font-bold text-lg my-10">Hi I'm Ben</div>
+          <div className="w-full font-bold text-lg my-10">Hi I'm Mark</div>
           <div className="w-full font-normal text-left">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. At,
             accusamus labore, quaerat provident expedita pariatur vel nostrum
