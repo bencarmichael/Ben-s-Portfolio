@@ -31,48 +31,60 @@ const Profile = () => {
           <div className="w-full mt-10">
             <div className="w-full font-bold text-lg my-5">History</div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>August 1996</p>
+              <p>Born in Willmar, Minnesota</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>August 2008</p>
+              <p>Moved to Milwaukee, Wisconsin</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>October 2014</p>
+              <p>WIAA Cross Country State Champion</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>June 2015</p>
+              <p>Graduated from Wisconsin Lutheran High School</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>August 2015 to May 2018</p>
+              <p>Cross Country/Track Athlete at UWEC</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>August 2019 to November 2019</p>
+              <p>Cross Country Assistant Coach at UWEC</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>May 2020</p>
+              <p>Graduated with Honors from University of Wisconsin-Eau Claire</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>July 2020</p>
+              <p>Obtained TEFL Certificate</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>January 2021</p>
+              <p>Moved to Seoul, South Korea</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>February 2021 to July 2021</p>
+              <p>Middle School Teacher at Canaan Lutheran Academy</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>2020</p>
-              <p>Graduate</p>
+              <p>August 2021 to February 2023</p>
+              <p>ESL Teacher at TOPIA Education Inc</p>
+            </div>
+            <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
+              <p>March 2023 to July 2023</p>
+              <p>R&D Member at Poly Language Academy</p>
+            </div>
+            <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
+              <p>August 2023</p>
+              <p>Moved to Seattle, Washington</p>
+            </div>
+            <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
+              <p>November 2023</p>
+              <p>Obtained Web Development Certificate from John Hopkins</p>
             </div>
           </div>
         </div>
