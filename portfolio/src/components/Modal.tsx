@@ -4,6 +4,10 @@ import Blugold from "./projects/Blugold";
 import Food from "./projects/Food";
 import Wiscomile from "./projects/Wiscomile";
 import IMA from "./projects/IMA";
+import Poster from "./projects/Poster";
+import Stamp from "./projects/Stamp";
+import Glue from "./projects/Glue";
+import Bowl from "./projects/Bowl";
 
 const Modal = ({}) => {
   const { modal, setModal } = useContext(ModalContext);
@@ -28,6 +32,14 @@ const Modal = ({}) => {
             <Wiscomile />
           ) : modal.id === "ima" ? (
             <IMA />
+          ) : modal.id === "poster" ? (
+            <Poster />
+          ) : modal.id === "stamp" ? (
+            <Stamp />
+          ) : modal.id === "glue" ? (
+            <Glue />
+          ) : modal.id === "bowl" ? (
+            <Bowl />
           ) : (
             <></>
           )}

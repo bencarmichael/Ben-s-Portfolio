@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { ModalContext } from "../../App";
 
-const Blugold = () => {
+const Stamp = () => {
   const modalRef = useRef<HTMLDivElement>(null);
   const { modal, setModal } = useContext(ModalContext);
 
@@ -26,8 +26,8 @@ const Blugold = () => {
     <div className="w-full h-full noScroll flex flex-col justify-start items-center bg-white font-md text-black leading-5">
       <div className="w-full h-[10%] font-md flex flex-row justify-between items-center fixed p-3 pl-8 text-xl bg-white">
         <div className="w-full h-full flex flex-col justify-center items-start mt-5">
-          <p className="font-bold">BLUGOLD ESPORTS/BLUGOLD LEAGUE OF LEGENDS</p>
-          <p className="font-normal text-sm text-mcolor">Logo design</p>
+          <p className="font-bold">TRACK AND FIELD STAMPS</p>
+          <p className="font-normal text-sm text-mcolor">Logo Design</p>
         </div>
 
         <div
@@ -38,44 +38,34 @@ const Blugold = () => {
         </div>
       </div>
       <div
-        className="w-full mt-[68px] h-[732px] flex flex-col justify-start items-center overflow-auto typeOne gap-2 overflow-x-hidden relative"
+        className="w-full mt-[68px] flex flex-col justify-start items-center overflow-auto typeOne gap-2 overflow-x-hidden relative"
         ref={modalRef}
       >
         <div className="w-full h-full flex flex-col justify-start lg:justify-between items-center snap-center relative lg:p-10">
-          <div className="w-[85%] h-[732px] p-2 flex flex-col justify-center items-start z-10">
-            <div className=" w-full flex flex-row justify-center items-center m-10 my-20 mt-40 gap-10">
+          <div className="w-[85%] p-2 flex flex-col justify-center items-start z-10">
+            <div className=" w-full flex flex-row justify-center items-center mb-10 gap-2">
               <img
-                className=" w-[20%] object-cover"
-                src="/portfolio/blugold_04.png"
-              />
-              <img
-                className="w-[20%]  object-cover"
-                src="/portfolio/blugold_03.jpg"
+                className=" w-[50%] h-full object-cover"
+                src="/portfolio/stamp_03.jpg"
               />
             </div>
 
-            <p className="font-black  px-3 underline">
-              BLUGOLD ESPORTS/BLUGOLD LEAGUE OF LEGENDS
-            </p>
+            <p className="font-black  px-3 underline">TRACK AND FIELD STAMPS</p>
             <p className="p-3 text-left text-[14px]">
-              One of the fastest growing sports in the world is Esports and this
-              trend can be seen at UWEau Claire. Both logos boast the school
-              colors of blue and gold. The top logo contains a bird that
-              represents both the school mascot and an in-game character while
-              the second logo uses the school’s nickname to form a controller
+              Insert description of stamps here!
             </p>
             <p className="p-3 text-left text-[10px] leading-3">
               Created with Adobe Illustrator
             </p>
 
-            <div className=" w-full flex flex-row justify-between items-start my-10 gap-1">
+            <div className=" w-full flex flex-row justify-center items-center mb-2 gap-2">
               <img
                 className=" w-[50%] h-full object-cover"
-                src="/portfolio/blugold_01.jpg"
+                src="/portfolio/stamp_01.jpg"
               />
               <img
-                className="w-[50%] h-full object-cover"
-                src="/portfolio/blugold_02.jpg"
+                className=" w-[50%] h-full object-cover"
+                src="/portfolio/stamp_02.jpg"
               />
             </div>
           </div>
@@ -85,4 +75,4 @@ const Blugold = () => {
   );
 };
 
-export default Blugold;
+export default Stamp;

@@ -27,6 +27,24 @@
     "id": "poster",
     "title": "UWEC CROSS COUNTRY SCHEDULE",
     "year": "2021",
-    "category": "Poster"
+    "category": "Poster Design"
+  },
+  {
+    "id": "stamp",
+    "title": "TRACK & FIELD STAMPS",
+    "year": "2021",
+    "category": "Graphic Design"
+  },
+  {
+    "id": "glue",
+    "title": "GLUE TYPOGRAPHY",
+    "year": "2021",
+    "category": "Typography"
+  },
+  {
+    "id": "bowl",
+    "title": "EMPTY BOWLS",
+    "year": "2021",
+    "category": "Poster Design"
   }
 ]
