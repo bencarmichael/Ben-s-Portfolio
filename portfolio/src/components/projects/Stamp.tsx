@@ -52,7 +52,11 @@ const Stamp = () => {
 
             <p className="font-black  px-3 underline">TRACK AND FIELD STAMPS</p>
             <p className="p-3 text-left text-[14px]">
-              Insert description of stamps here!
+              Track and field is a sport of variety. In most sports, athletes use the same equipment and go through
+              similar actions. However, each athlete in track is faced with a different task which 
+              requires varying amounts of speed, strength, endurance, and coordination. With the
+              multitude of events that are part of this sport comes a number of different objects.
+              This stamp series shows off some of the objects that can be found within track and field.
             </p>
             <p className="p-3 text-left text-[10px] leading-3">
               Created with Adobe Illustrator

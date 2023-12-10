@@ -51,7 +51,12 @@ const Glue = () => {
             </div>
 
             <p className="font-black  px-3 underline">GLUE TYPOGRAPHY</p>
-            <p className="p-3 text-left text-[14px]">Insert description here</p>
+            <p className="p-3 text-left text-[14px]">
+              "Glue" is a project I made while taking a course focused on typography.
+              The goal of this project was to display a word while expressing its meaning.
+              The definition of glue, as seen in the image, is "an adhesive substance used for sticking objects together".
+              With that in mind, I decided to use the "l" in glue to adhere the other letters together.
+            </p>
             <p className="p-3 text-left text-[10px] leading-3">
               Created with Adobe Illustrator
             </p>

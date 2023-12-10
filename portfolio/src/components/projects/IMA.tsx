@@ -57,7 +57,7 @@ const IMA = () => {
               Their logo uses blue to emphasize the trustworthiness and loyalty
               of the company. The ascending arrow represents the financial
               success the company will bring to their clients through the
-              services they provide
+              services they provide.
             </p>
             <p className="p-3 text-left text-[10px] leading-3">
               Created with Adobe Illustrator

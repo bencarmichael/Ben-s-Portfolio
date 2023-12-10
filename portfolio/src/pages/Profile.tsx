@@ -15,31 +15,29 @@ const Profile = () => {
           <div className="w-full flex flex-row justify-center items-center">
             <Ready color="#3970AA" width="250px" />
           </div>
-          <div className="w-full font-bold text-lg my-10">Hi I'm Mark</div>
+          <div className="w-full font-bold text-lg my-10">Hi, I'm Ben!</div>
           <div className="w-full font-normal text-left">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At,
-            accusamus labore, quaerat provident expedita pariatur vel nostrum
-            quis ratione laboriosam soluta sunt aliquam debitis eius doloribus
-            error. Quibusdam, blanditiis iure! Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. At, accusamus labore, quaerat Lorem
-            ipsum, dolor sit amet consectetur adipisicing elit. At, accusamus
-            labore, quaerat provident expedita pariatur vel nostrum quis ratione
-            laboriosam soluta sunt aliquam debitis eius doloribus error.
-            Quibusdam, blanditiis iure! Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. At, accusamus labore, quaerat
+            I am a passionate graphic designer with unique experiences that have helped me grow tremendously.
+            While at the University of Wisconsin-Eau Claire, I developed a strong base of knowledge and skills necessary for a graphic designer.
+            This includes becoming more proficient with Adobe Creative Cloud, understanding elements and principles of art, and practicing with 
+            other mediums. During my time at the university, I also had the opportunity to work with Blugold Esports. This helped me improve my logo design 
+            as well as promotional material. After college, I obtained a TEFL certificate and gained experience as a teacher. From the time I spent there, 
+            I vastly improved my communication skills as it was necessary to convey information to parents, students, and coworkers who all came 
+            from different backgrounds. As a member of an R&D team, I learned how to work at a faster pace while still producing high quality content 
+            such as student workbooks and educational videos, as it was necessary to keep up with the fast-paced environment. Overall, I have been very fortunate to have such unique and diverse experiences.
           </div>
           <div className="w-full mt-10 text-sm">
             <div className="w-full font-bold text-lg my-5">History</div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>August 1996</p>
+              <p>Aug 1996</p>
               <p>Born in Willmar, Minnesota</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>August 2008</p>
+              <p>Aug 2008</p>
               <p>Moved to Milwaukee, Wisconsin</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>October 2014</p>
+              <p>Oct 2014</p>
               <p>WIAA Cross Country State Champion</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
@@ -47,17 +45,17 @@ const Profile = () => {
               <p>Graduated from Wisconsin Lutheran High School</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>August 2015 to May 2018</p>
+              <p>Aug 2015 to May 2018</p>
               <p>Cross Country/Track Athlete at UWEC</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>August 2019 to November 2019</p>
+              <p>Aug 2019 to Nov 2019</p>
               <p>Cross Country Assistant Coach at UWEC</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
               <p>May 2020</p>
               <p>
-                Graduated with Honors from University of Wisconsin-Eau Claire
+                Graduated with Honors from the University of Wisconsin-Eau Claire
               </p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
@@ -65,15 +63,15 @@ const Profile = () => {
               <p>Obtained TEFL Certificate</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>January 2021</p>
+              <p>Jan 2021</p>
               <p>Moved to Seoul, South Korea</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>February 2021 to July 2021</p>
+              <p>Feb 2021 to July 2021</p>
               <p>Middle School Teacher at Canaan Lutheran Academy</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>August 2021 to February 2023</p>
+              <p>Aug 2021 to Feb 2023</p>
               <p>ESL Teacher at TOPIA Education Inc</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
@@ -81,11 +79,11 @@ const Profile = () => {
               <p>R&D Member at Poly Language Academy</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>August 2023</p>
+              <p>Aug 2023</p>
               <p>Moved to Seattle, Washington</p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
-              <p>November 2023</p>
+              <p>Nov 2023</p>
               <p>Obtained Web Development Certificate from John Hopkins</p>
             </div>
           </div>

@@ -58,11 +58,16 @@ const Blugold = () => {
               BLUGOLD ESPORTS/BLUGOLD LEAGUE OF LEGENDS
             </p>
             <p className="p-3 text-left text-[14px]">
-              One of the fastest growing sports in the world is Esports and this
-              trend can be seen at UWEau Claire. Both logos boast the school
-              colors of blue and gold. The top logo contains a bird that
-              represents both the school mascot and an in-game character while
-              the second logo uses the school’s nickname to form a controller
+              In 2018, the Blugold League of Legends Club was a newly established club at the University of Wisconsin-Eau Claire.
+              Being a fan of the game myself, I eagerly accepted the task of designing a logo for them. The logo contains a bird, resembling
+              both an in-game character and the school's mascot. I decided to stick to navy and gold, the university's official colors.
+            <br></br>
+            <br></br>
+              Fast forward a year, the university's recreation department approached the club's president and requested expanding the club
+              into an esports club. Since esports has continued to grow rapidly in popularity, the school wanted to take this chance to develop 
+              their very own esports program. With that being the case, the club was in need of a new logo. So I designed the logo for Blugold Esports,
+              closely resembling a video controller.
+
             </p>
             <p className="p-3 text-left text-[10px] leading-3">
               Created with Adobe Illustrator
