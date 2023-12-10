@@ -112,6 +112,12 @@ function App() {
               )}
             </div>
           </div>
+          <div className="w-full flex flex-row justify-center items-center text-sm p-8 text-white">
+            <div className="flex flex-row gap-2">
+              <Mail color="white" width="22px" />
+              <p>bencarmi@gmail.com</p>
+            </div>
+          </div>
         </div>
       </ModalContext.Provider>
     </div>

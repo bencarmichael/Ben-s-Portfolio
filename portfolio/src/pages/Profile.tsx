@@ -28,7 +28,7 @@ const Profile = () => {
             Quibusdam, blanditiis iure! Lorem ipsum, dolor sit amet consectetur
             adipisicing elit. At, accusamus labore, quaerat
           </div>
-          <div className="w-full mt-10">
+          <div className="w-full mt-10 text-sm">
             <div className="w-full font-bold text-lg my-5">History</div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
               <p>August 1996</p>
@@ -56,7 +56,9 @@ const Profile = () => {
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
               <p>May 2020</p>
-              <p>Graduated with Honors from University of Wisconsin-Eau Claire</p>
+              <p>
+                Graduated with Honors from University of Wisconsin-Eau Claire
+              </p>
             </div>
             <div className="border-b solid w-full flex flex-row justify-between px-5 py-2">
               <p>July 2020</p>
