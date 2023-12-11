@@ -51,7 +51,7 @@ const Glue = () => {
             </div>
 
             <p className="font-black  px-3 underline">GLUE TYPOGRAPHY</p>
-            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap leading-6">
               "Glue" is a project I made while taking a course focused on
               typography. The goal of this project was to display a word while
               expressing its meaning. The definition of glue, as seen in the

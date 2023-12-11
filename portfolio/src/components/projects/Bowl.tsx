@@ -51,7 +51,7 @@ const Bowl = () => {
             </div>
 
             <p className="font-black  px-3 underline">EMPTY BOWLS</p>
-            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap leading-6">
               Empty Bowls is a fundraiser put on each year in Eau Claire,
               Wisconsin with the goal of providing meals to people in need. The
               soup laddle at the center of the poster displays how this event

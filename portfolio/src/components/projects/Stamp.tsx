@@ -51,7 +51,7 @@ const Stamp = () => {
             </div>
 
             <p className="font-black  px-3 underline">TRACK AND FIELD STAMPS</p>
-            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap leading-6">
               Track and field is a sport of variety. In most sports, athletes
               use the same equipment and go through similar actions. However,
               each athlete in track is faced with a different task which

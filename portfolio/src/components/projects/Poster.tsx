@@ -53,7 +53,7 @@ const Poster = () => {
             <p className="font-black  px-3 underline">
               UWEC CROSS COUNTRY SCHEDULE
             </p>
-            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap leading-6">
               People often do not realize the type of training cross country
               athletes go through since they rarely stay in one location. The
               main part of this poster is the image of the team out in the

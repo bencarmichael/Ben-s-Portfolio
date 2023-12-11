@@ -57,7 +57,7 @@ const Blugold = () => {
             <p className="font-black  px-3 underline">
               BLUGOLD ESPORTS/BLUGOLD LEAGUE OF LEGENDS
             </p>
-            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap leading-6 ">
               In 2018, the Blugold League of Legends Club was a newly
               established club at the University of Wisconsin-Eau Claire. Being
               a fan of the game myself, I eagerly accepted the task of designing
