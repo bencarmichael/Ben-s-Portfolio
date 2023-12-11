@@ -57,7 +57,7 @@ const Food = () => {
             </div>
 
             <p className="font-black  px-3 underline">TRUSTING THE PROCESS</p>
-            <p className="p-3 text-left text-[14px]">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
               Trusting the Process is an informational booklet about the dangers
               of eating too much processed foods. It is targeted at everyday
               people who love the convenience and taste of fast food. The

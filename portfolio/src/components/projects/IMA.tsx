@@ -51,7 +51,7 @@ const IMA = () => {
             </div>
 
             <p className="font-black  px-3 underline">IMA Solutions</p>
-            <p className="p-3 text-left text-[14px]">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
               IMA Solutions (Integrated Management and Accounting) is an
               accounting firm that takes pride in maintaining long-term clients.
               Their logo uses blue to emphasize the trustworthiness and loyalty

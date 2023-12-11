@@ -55,7 +55,7 @@ const Wiscomile = () => {
             <p className="font-black  px-3 underline">
               The 13th Annual Wisco Mile
             </p>
-            <p className="p-3 text-left text-[14px]">
+            <p className="p-3 text-left text-[14px] whitespace-pre-wrap">
               The Wisco Mile is a community running event that takes place every
               June following the conclusion of the WIAA track and field season.
               The center of the logo contains a pineapple, the award given to
