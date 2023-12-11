@@ -9,6 +9,8 @@ import Mail from "./components/Mail";
 import Phone from "./components/Phone";
 import ProjectContext from "./contexts/projectContext";
 import Modal from "./components/Modal";
+import Linkedin from "./components/Linkedin";
+import Marker from "./components/Marker";
 
 interface ModalState {
   open: boolean;
@@ -112,10 +114,22 @@ function App() {
               )}
             </div>
           </div>
-          <div className="w-full flex flex-row justify-center items-center text-sm p-8 text-white">
+          <div className="w-full flex flex-row justify-center items-center text-xs p-8 gap-5 text-white">
             <div className="flex flex-row gap-2">
-              <Mail color="white" width="22px" />
+              <Mail color="white" width="20px" />
               <p>bcarmi96@gmail.com</p>
+            </div>
+            <a
+              className="flex flex-row gap-2"
+              href="https://www.linkedin.com/in/ben-carmichael-a5a061194/"
+            >
+              <Linkedin color="white" width="20px" />
+              <p className="hover:underline ">LinkedIn</p>
+            </a>
+
+            <div className="flex flex-row gap-2">
+              <Marker color="white" width="20px" />
+              <p>Seattle, WA</p>
             </div>
           </div>
         </div>
