@@ -18,21 +18,21 @@ const Profile = () => {
           <div className="w-full font-bold text-lg my-10">Hi, I'm Ben!</div>
           <div className="w-full font-normal text-left whitespace-pre-wrap leading-7">
             I am a passionate graphic designer with unique experiences that have
-            helped me grow tremendously. While at the{" "}
-            <b>University of Wisconsin-Eau Claire</b>, I developed a strong base
-            of knowledge and skills necessary for a <i>graphic designer</i>.{" "}
-            <br /> This includes becoming more proficient with Adobe Creative
-            Cloud, understanding elements and principles of art, and practicing
+            helped me grow tremendously. While at the
+            {" "}<b>University of Wisconsin-Eau Claire</b>, I developed a strong base
+            of knowledge and skills necessary for a graphic designer.
+             This includes becoming more proficient with <b>Adobe Creative
+            Cloud</b>, understanding elements and principles of art, and practicing
             with other mediums. During my time at the university, I also had the
             opportunity to work with Blugold Esports. This helped me improve my
-            logo design as well as promotional material. After college, I
-            obtained a TEFL certificate and gained experience as a teacher. From
-            the time I spent there, I vastly improved my communication skills as
+            {" "}<b>logo design</b> as well as promotional material. <br /><br /> After college, I
+            obtained a <b>TEFL certificate</b> and gained experience as a teacher. From
+            the time I spent there, I vastly improved my <b>communication skills</b> as
             it was necessary to convey information to parents, students, and
             coworkers who all came from different backgrounds. As a member of an
             R&D team, I learned how to work at a faster pace while still
-            producing high quality content such as student workbooks and
-            educational videos, as it was necessary to keep up with the
+            producing high quality content such as <b>student workbooks</b> and
+            {" "}<b>educational videos</b>, as it was necessary to keep up with the
             fast-paced environment. Overall, I have been very fortunate to have
             such unique and diverse experiences.
           </div>
