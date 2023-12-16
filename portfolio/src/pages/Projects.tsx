@@ -11,7 +11,7 @@ const Projects = () => {
         {projects.map((project) => {
           return (
             <div
-              className="w-[24.2%] h-[300px] cursor-pointer bg-slate-300 m-1 overflow-hidden relative flex flex-row items-center justify-center"
+              className="w-[24.2%] h-[300px] cursor-pointer bg-slate-300 m-1 overflow-hidden relative flex flex-row items-center justify-center border border-gray-200"
               onClick={() =>
                 setModal({
                   open: true,
