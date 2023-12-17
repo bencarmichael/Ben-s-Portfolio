@@ -52,6 +52,7 @@ function App() {
         {modal.open === true && <Modal />}
         <div className="lg:hidden flex fixed z-50 w-screen h-screen inset-0 bg-black flex-col justify-center items-center gap-5 text-white">
           <Ready color="white" width="300px" />
+          Sorry, This webpage does not support mobile environments.
         </div>
         <div className="w-full h-[100vh] bg-[#3970AA] flex flex-col justify-start items-center text-white">
           <div className="w-[80%] h-[100px]  flex flex-row justify-center">

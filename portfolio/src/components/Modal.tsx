@@ -8,6 +8,7 @@ import Poster from "./projects/Poster";
 import Stamp from "./projects/Stamp";
 import Glue from "./projects/Glue";
 import Bowl from "./projects/Bowl";
+import Mica from "./projects/Mica";
 
 const Modal = ({}) => {
   const { modal, setModal } = useContext(ModalContext);
@@ -40,6 +41,8 @@ const Modal = ({}) => {
             <Glue />
           ) : modal.id === "bowl" ? (
             <Bowl />
+          ) : modal.id === "mica" ? (
+            <Mica />
           ) : (
             <></>
           )}
